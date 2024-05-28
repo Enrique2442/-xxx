@@ -23,7 +23,7 @@ return (
     <ScrollView style={styles.container}>
       <Text style={styles.header}>Comida</Text>
       <View style={styles.section}>
-        {colors.slice(0, 6).map((color, index) => (
+        {colors.slice(0, 8).map((color, index) => (
           <View key={index} style={styles.colorBox}>
             <Image style={styles.image} source={color.image} />
             <Text style={styles.colorName}>{color.name}</Text>
